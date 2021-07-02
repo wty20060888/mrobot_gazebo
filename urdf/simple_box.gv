@@ -1,0 +1,8 @@
+digraph G {
+node [shape=box];
+"world" [label="world"];
+"my_box" [label="my_box"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"world" -> "fixed" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"fixed" -> "my_box"
+}
